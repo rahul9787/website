@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/rahul9787/carwebsite.git'
+                url: 'https://github.com/rahul9787/car-website.git'
             }
         }
 
