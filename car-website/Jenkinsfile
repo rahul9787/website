@@ -3,13 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                url: 'https://github.com/rahul9787/car-website.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 sh 'echo "Build Successful"'
